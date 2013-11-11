@@ -3,6 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.Vs2012Integration", "IdeIntegration\VS2012Integration\TechTalk.SpecFlow.Vs2012Integration.csproj", "{7EE9BE0E-CAAE-4498-9DBF-5AC46EE1EBC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeIntegration", "IdeIntegration", "{00CF9698-384E-48A4-B96D-FBD34315F0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow", "Runtime\TechTalk.SpecFlow.csproj", "{413EE28C-4F89-4C6F-BA1E-2CDEE4CD43B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.IdeIntegration", "IdeIntegration\IdeIntegration\TechTalk.SpecFlow.IdeIntegration.csproj", "{44D52C1B-0ABC-44B6-8EB8-0F754E264226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.Generator", "Generator\TechTalk.SpecFlow.Generator.csproj", "{453D8014-B6CD-4E86-80A8-D59F59092334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.Utils", "Utils\TechTalk.SpecFlow.Utils.csproj", "{C0AF4A43-0C3B-47C7-86DE-79FB632B1453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.Vs2008Integration", "IdeIntegration\Vs2008Integration\TechTalk.SpecFlow.Vs2008Integration.csproj", "{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.SpecFlow.Parser", "Parser\TechTalk.SpecFlow.Parser.csproj", "{7CCEF6D6-FC17-422E-9BED-EDD752B6496F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlternativeRuntimes", "AlternativeRuntimes", "{8F18FC29-56E3-4DCC-A92A-72828722D389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.Specflow.WindowsStore", "AlternativeRuntimes\Runtime.WindowsStore\TechTalk.Specflow.WindowsStore.csproj", "{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.Specflow.WindowsPhone", "AlternativeRuntimes\Runtime.WindowsPhone\TechTalk.Specflow.WindowsPhone.csproj", "{7E666146-BFC8-44F1-8857-39113B6590C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +33,47 @@ Global
 		{7EE9BE0E-CAAE-4498-9DBF-5AC46EE1EBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE9BE0E-CAAE-4498-9DBF-5AC46EE1EBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE9BE0E-CAAE-4498-9DBF-5AC46EE1EBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413EE28C-4F89-4C6F-BA1E-2CDEE4CD43B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413EE28C-4F89-4C6F-BA1E-2CDEE4CD43B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413EE28C-4F89-4C6F-BA1E-2CDEE4CD43B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413EE28C-4F89-4C6F-BA1E-2CDEE4CD43B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D52C1B-0ABC-44B6-8EB8-0F754E264226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D52C1B-0ABC-44B6-8EB8-0F754E264226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D52C1B-0ABC-44B6-8EB8-0F754E264226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D52C1B-0ABC-44B6-8EB8-0F754E264226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453D8014-B6CD-4E86-80A8-D59F59092334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453D8014-B6CD-4E86-80A8-D59F59092334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453D8014-B6CD-4E86-80A8-D59F59092334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453D8014-B6CD-4E86-80A8-D59F59092334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AF4A43-0C3B-47C7-86DE-79FB632B1453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AF4A43-0C3B-47C7-86DE-79FB632B1453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AF4A43-0C3B-47C7-86DE-79FB632B1453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AF4A43-0C3B-47C7-86DE-79FB632B1453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCEF6D6-FC17-422E-9BED-EDD752B6496F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCEF6D6-FC17-422E-9BED-EDD752B6496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCEF6D6-FC17-422E-9BED-EDD752B6496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCEF6D6-FC17-422E-9BED-EDD752B6496F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E666146-BFC8-44F1-8857-39113B6590C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E666146-BFC8-44F1-8857-39113B6590C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E666146-BFC8-44F1-8857-39113B6590C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E666146-BFC8-44F1-8857-39113B6590C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EE9BE0E-CAAE-4498-9DBF-5AC46EE1EBC2} = {00CF9698-384E-48A4-B96D-FBD34315F0B2}
+		{44D52C1B-0ABC-44B6-8EB8-0F754E264226} = {00CF9698-384E-48A4-B96D-FBD34315F0B2}
+		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E} = {00CF9698-384E-48A4-B96D-FBD34315F0B2}
+		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73} = {8F18FC29-56E3-4DCC-A92A-72828722D389}
+		{7E666146-BFC8-44F1-8857-39113B6590C7} = {8F18FC29-56E3-4DCC-A92A-72828722D389}
 	EndGlobalSection
 EndGlobal
