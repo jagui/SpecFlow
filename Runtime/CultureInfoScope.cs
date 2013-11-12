@@ -7,8 +7,9 @@ namespace TechTalk.SpecFlow
 {
     public class CultureInfoScope : IDisposable
     {
+#if !WINRT
         private readonly CultureInfo originalCultureInfo;
-
+#endif
         public CultureInfoScope(CultureInfo cultureInfo)
         {
 #if !WINRT
