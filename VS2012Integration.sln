@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.Specflow.WindowsSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.Specflow.WindowsPhone", "AlternativeRuntimes\Runtime.WindowsPhone\TechTalk.Specflow.WindowsPhone.csproj", "{7E666146-BFC8-44F1-8857-39113B6590C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTalk.Specflow.WindowsPhone.Packager", "AlternativeRuntimes\TechTalk.Specflow.WindowsPhone.Packager\TechTalk.Specflow.WindowsPhone.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{7E666146-BFC8-44F1-8857-39113B6590C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E666146-BFC8-44F1-8857-39113B6590C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E666146-BFC8-44F1-8857-39113B6590C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,6 @@ Global
 		{5703CA95-A08A-46AE-AE24-DB6B21FD6F7E} = {00CF9698-384E-48A4-B96D-FBD34315F0B2}
 		{B8BE3373-0DF6-43C6-B89E-8AAD534A8F73} = {8F18FC29-56E3-4DCC-A92A-72828722D389}
 		{7E666146-BFC8-44F1-8857-39113B6590C7} = {8F18FC29-56E3-4DCC-A92A-72828722D389}
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {8F18FC29-56E3-4DCC-A92A-72828722D389}
 	EndGlobalSection
 EndGlobal
