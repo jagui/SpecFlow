@@ -65,6 +65,12 @@
   <ItemGroup>
     <Content Include="lib\windowsphone8\TechTalk.Specflow.WindowsPhone.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Runtime.WindowsPhone\TechTalk.Specflow.WindowsPhone.csproj">
+      <Project>{7E666146-BFC8-44F1-8857-39113B6590C7}</Project>
+      <Name>TechTalk.Specflow.WindowsPhone</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

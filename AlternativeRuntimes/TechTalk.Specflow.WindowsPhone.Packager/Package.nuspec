@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>TechTalk.Specflow.WindowsPhone.Packager</id>
-    <version>1.0.0</version>
-    <title>TechTalk.Specflow.WindowsPhone.Packager</title>
+    <id>SpecFlow.WindowsPhone8</id>
+    <version>1.0.1</version>
+    <title>SpecFlow.WindowsPhone8</title>
     <authors>agui</authors>
     <owners></owners>
     <description>
-     specflow for windowshone8 
+      specflow for windowshone8
     </description>
     <releaseNotes>
+      async/await support
     </releaseNotes>
     <summary>
       specflow for windowshone8
